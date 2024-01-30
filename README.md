@@ -35,3 +35,6 @@ Compile your program with `color.c` and include `color.h` in your source file. F
 gcc -o myprogram test.c color.c
 ```
 
+![Example Image](examples.png)
+
+
