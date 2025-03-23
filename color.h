@@ -39,12 +39,12 @@ void printcu(int colorCode, const char *format, ...);
 void printcd(int colorCode, const char *format, ...);
 void printcm(int colorCode, const char *format, ...);
 
-char *get_color(int colorCode);
-char *get_bold_color(int colorCode);
-char *get_italic_color(int colorCode);
-char *get_underline_color(int colorCode);
-char *get_disco_color(int colorCode);
-char *get_mark_color(int colorCode);
+const char *get_color(int colorCode);
+const char *get_bold_color(int colorCode);
+const char *get_italic_color(int colorCode);
+const char *get_underline_color(int colorCode);
+const char *get_disco_color(int colorCode);
+const char *get_mark_color(int colorCode);
 
 #endif
 
