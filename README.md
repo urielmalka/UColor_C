@@ -3,11 +3,14 @@
 
 The Color Print Library is a C language utility that allows for colored text output in terminal applications. It provides functions for printing text in various colors and styles, including bold, italic, and underlined text.
 
-## Files
+## Files & Folders
+
 
 - `color.c`: Implementation of the color print functions.
 - `color.h`: Header file with function declarations and color definitions.
 - `test.c`: Example usage of the color print functions.
+- `python`: This folder contains a .so file used by a Python project, which is executed through a .py script.
+
 
 ## Usage
 
