@@ -1,6 +1,10 @@
 #ifndef COLOR_H
 #define COLOR_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include <stdio.h>
 #include <stdarg.h>
 
@@ -45,6 +49,10 @@ const char *get_italic_color(int colorCode);
 const char *get_underline_color(int colorCode);
 const char *get_disco_color(int colorCode);
 const char *get_mark_color(int colorCode);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // COLOR_H
 
