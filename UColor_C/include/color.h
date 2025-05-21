@@ -46,5 +46,5 @@ const char *get_underline_color(int colorCode);
 const char *get_disco_color(int colorCode);
 const char *get_mark_color(int colorCode);
 
-#endif
+#endif // COLOR_H
 

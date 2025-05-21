@@ -6,8 +6,8 @@ The Color Print Library is a C language utility that allows for colored text out
 ## Files & Folders
 
 
-- `color.c`: Implementation of the color print functions.
-- `color.h`: Header file with function declarations and color definitions.
+- `Ucolor_C/src/color.c`: Implementation of the color print functions.
+- `Ucolor_C/include/color.h`: Header file with function declarations and color definitions.
 - `test.c`: Example usage of the color print functions.
 - `python`: This folder contains a .so file used by a Python project, which is executed through a .py script.
 
